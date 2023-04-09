@@ -160,7 +160,7 @@ a:hover {
 }
 
 @media (min-width: 600px) {
-  .container {
+  .main {
     max-width: 400px;
   }
 }
