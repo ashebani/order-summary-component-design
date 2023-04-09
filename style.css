@@ -80,7 +80,7 @@ body {
   font-size: var(--font-size);
 }
 
-.container {
+main {
   max-width: 375px;
   text-align: center;
   border-radius: 1em;
