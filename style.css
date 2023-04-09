@@ -78,6 +78,7 @@ body {
   background: var(--pale-blue);
   font-family: Red Hat Display;
   font-size: var(--font-size);
+  position: relative;
 }
 
 main {
@@ -163,4 +164,11 @@ a:hover {
   .main {
     max-width: 400px;
   }
+}
+
+body > img {
+  position: absolute;
+  top: 0;
+  width: auto;
+  z-index: -1;
 }
